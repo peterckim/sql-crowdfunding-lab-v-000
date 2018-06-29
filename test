@@ -1,0 +1,4 @@
+LEFT JOIN
+[["music", 24], ["music", 34], ["music", 40], ["books", 10], ["books", 10], ["books", 20], ["books", 50], ["books", 50], ["charity", 20], ["charity", 40], ["charity", 50], ["charity", 100], ["charity", 19], ["charity", 20], ["charity", 450], ["music", 12], ["music", 20], ["music", 40], ["music", 40], ["music", 230], ["charity", 35.5], ["charity", 1000], ["charity", 40], ["charity", 700], ["charity", 50], ["charity", 60], ["charity", 90], ["charity", 40], ["charity", 60], ["charity", 70]]
+
+INNER JOIN
