@@ -15,9 +15,6 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (9, 'I want to teach English in China', 'charity', 3000.00, '2013-06-30', '2013-09-30'),
 (10, 'Help save birds of paradise', 'charity', 5000.00, '2012-03-20', '2013-06-30');
 
-LEFT JOIN
-[["music", 24], ["music", 34], ["music", 40], ["books", 10], ["books", 10], ["books", 20], ["books", 50], ["books", 50], ["charity", 20], ["charity", 40], ["charity", 50], ["charity", 100], ["charity", 19], ["charity", 20], ["charity", 450], ["music", 12], ["music", 20], ["music", 40], ["music", 40], ["music", 230], ["charity", 35.5], ["charity", 1000], ["charity", 40], ["charity", 700], ["charity", 50], ["charity", 60], ["charity", 90], ["charity", 40], ["charity", 60], ["charity", 70]]
-
 INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (1, 10.00, 1, 2),
 (2, 20.00, 1, 3),
@@ -50,6 +47,3 @@ INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (29, 230.00, 16, 6),
 (30, 450.00, 15, 5);
 
-
-INNER JOIN
-[["books", 10], ["books", 20], ["charity", 40], ["books", 50],["books", 10], ["charity", 20], ["charity", 40], ["charity", 60], ["charity", 50], ["charity", 700], ["charity", 1000], ["music", 40], ["books", 50], ["charity", 50], ["music", 24], ["music", 34], ["music", 12], ["charity", 19], ["charity", 20], ["music", 40], ["charity", 35.5], ["charity", 40], ["charity", 60], ["charity", 70], ["charity", 100], ["music", 40], ["music", 20], ["charity", 90], ["music", 230], ["charity", 450]]
